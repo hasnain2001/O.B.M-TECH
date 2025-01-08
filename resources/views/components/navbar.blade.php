@@ -36,15 +36,16 @@
             <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul >
 <li><a href="{{route('affilate-marketing')}}" class="{{ request()->is('affilate-marketing') ? 'active' : '' }}">Affilate Marketing </a></li>
-<li class="dropdown"><a href=""><span>Web Designing Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+<li class="dropdown"><a href="{{ route('website-designing') }}"><span>Web Designing Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
 <ul class=" text-capitalize">
-<li><a href="#">Custom Websites Development</a></li>
-<li><a href="#">Webp application</a></li>
-<li><a href="#">UI /UX DESIGN</a></li>
+<li><a href="{{ route('custom-website-development') }}">Custom Websites Development</a></li>
+<li><a href="{{ route('webp-application') }}">Webp application</a></li>
+<li><a href="{{ route('ui-ux') }}">UI /UX DESIGN</a></li>
 {{-- <li><a href="#">Laravel websites Development </a></li> --}}
-<li><a href="#">Deep Dropdown 5</a></li>
+<li><a href="{{ route('our-development-process') }}">Our Development Process</a></li>
 </ul>
 </li>
+
                 <li><a href="#">Graphic  Design</a></li>
                 <li><a href="#">Digital Marketing</a></li>
               </ul>
