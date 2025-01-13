@@ -3,7 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\admin\BlogController;
 use App\Http\Middleware\RoleMiddleware;
 
 Route::get('/', function () {return view('welcome');});

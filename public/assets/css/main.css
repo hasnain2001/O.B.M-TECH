@@ -211,7 +211,7 @@ h6 {
 }
 
 .header .logo img {
-  height: 150px;
+  height: auto;
 width: 200px;
 /* padding-left:-1000px; */
 }
@@ -1463,6 +1463,10 @@ section,
 .team .team-member .member-img {
   position: relative;
   overflow: hidden;
+}
+.team-image{
+  width: 100%;
+  height: 250px;
 }
 
 .team .team-member .social {

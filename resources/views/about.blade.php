@@ -7,7 +7,7 @@
 <div class="container py-5" style="background-color: #fff;">
     <!-- Introduction Section -->
     <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold text-primary">Welcome to O.B.M TECH</h1>
+        <h1 class="display-6 fw-bold text-dark">Welcome to O.B.M TECH</h1>
         <p class="lead text-dark">Innovative Solutions for Businesses Seeking Growth</p>
     </div>
 

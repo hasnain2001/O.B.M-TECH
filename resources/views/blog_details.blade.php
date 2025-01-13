@@ -5,7 +5,7 @@ header("X-Robots-Tag:index, follow");?>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" href="{{ asset('front/assets/images/icons.png') }}" type="image/x-icon">
+   <link rel="icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">
 
  
 
@@ -15,7 +15,8 @@ header("X-Robots-Tag:index, follow");?>
 @if(isset($blog) && is_object($blog))
    <!-- Your custom meta tags go here -->
    <title>{!! $blog->meta_title !!}</title>
-    <link rel="canonical" href="https://honeycombdeals.com/blog/{{ Str::slug($blog->title) }}">
+   <link rel="canonical" href="{{ url('/blog/' . Str::slug($blog->title)) }}">
+
         <meta name="description" content="{!! $blog->meta_description !!}">
 
  <meta name="keywords" content="{!! $blog->meta_keyword !!}">
@@ -110,7 +111,7 @@ header("X-Robots-Tag:index, follow");?>
 <div class="blog-post card shadow rounded-lg border border-light mb-4">
 <img class=" blog-image img-thumbnail" src="{{ asset($blog->category_image) }}" alt="Blog Image" ><div class="card-body">
 <h1 class="card-title text-3xl font-semibold text-gray-800 mb-4">{{ $blog->title }}</h1>
-<p class="card-text text-gray-700 text-lg leading-relaxed">{!! $blog->content !!}</p>
+<p class="card-text text-white text-lg leading-relaxed">{!! $blog->content !!}</p>
 
 </div>
 </div>

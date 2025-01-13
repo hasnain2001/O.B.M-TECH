@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\admin\BlogController;
 use App\Http\Controllers\AdminController;
 use App\Http\Middleware\RoleMiddleware;
 use Illuminate\Support\Facades\Route;

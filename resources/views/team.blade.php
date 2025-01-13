@@ -7,95 +7,92 @@
 <!-- Team Section -->
 <section id="team" class="team section light-background">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Our Team</h2>
-    <p><span>Meet Our</span> <span class="description-title">Creative Minds</span></p>
-  </div>
-  <!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Team</h2>
+        <p><span>Meet Our</span> <span class="description-title">Creative Minds</span></p>
+      </div>
+      <!-- End Section Title -->
 
-  <div class="container">
+      <div class="container">
 
-    <!-- Team Members -->
-    <div class="row gy-4">
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-        <div class="team-member">
-          <div class="member-img">
-            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Walter White">
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ asset('assets/img/team/ozair.png') }}" class="team-image" alt="">
+                {{-- <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> --}}
+              </div>
+              <div class="member-info">
+                <h4>ozair  bin mazher  </h4>
+                <span>Founder & Chief Executive Officer</span>
+              </div>
             </div>
-          </div>
-          <div class="member-info">
-            <h4>Walter White</h4>
-            <span>Chief Executive Officer</span>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
-
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-        <div class="team-member">
-          <div class="member-img">
-            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Sarah Jhonson">
-            <div class="social">
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div><!-- End Team Member -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ asset('assets/img/team/shujahat.png') }}" class="team-image" alt="">
+                {{-- <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> --}}
+              </div>
+              <div class="member-info">
+                <h4>Syed Shujat Hussain </h4>
+                <span>Affiliate Lead</span>
+              </div>
             </div>
-          </div>
-          <div class="member-info">
-            <h4>Sarah Jhonson</h4>
-            <span>Product Manager</span>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
-      
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-        <div class="team-member">
-          <div class="member-img">
-            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ asset('assets/img/team/hasnain.png') }}" class="team-image" alt="">
+                {{-- <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> --}}
+              </div>
+              <div class="member-info">
+                <h4>hasnain ali khan</h4>
+                <span>Web Developer</span>
+              </div>
             </div>
-          </div>
-          <div class="member-info">
-            <h4>ozair Ahmed  </h4>
-            <span>CEO</span>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
+          </div><!-- End Team Member -->
 
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-        <div class="team-member">
-          <div class="member-img">
-            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
+         
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="{{ asset('assets/img/team/omair.png') }}" class="team-image" alt="" >
+                {{-- <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div> --}}
+              </div>
+              <div class="member-info">
+                <h4>Umair Hasan Qureshi </h4>
+                <span>Data Research Analyst</span>
+              </div>
             </div>
-          </div>
-          <div class="member-info">
-            <h4>Amanda Jepson</h4>
-            <span>Accountant</span>
-          </div>
+          </div><!-- End Team Member -->
+
         </div>
-      </div><!-- End Team Member -->
 
-      <!-- More team members -->
-      <!-- Include as needed -->
-
-    </div>
-    <!-- End Team Members -->
+      </div>
 
     <!-- Vision and Mission Section -->
     <div class="row mt-5">

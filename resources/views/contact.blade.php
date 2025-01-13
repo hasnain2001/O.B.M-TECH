@@ -23,7 +23,7 @@
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
                   <div>
                     <h3>Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p>B-103, Block#3, Gulshan E Iqbal, Karachi, Pakistan</p>
                   </div>
                 </div><!-- End Info Item -->
   
@@ -31,7 +31,7 @@
                   <i class="bi bi-telephone flex-shrink-0"></i>
                   <div>
                     <h3>Call Us</h3>
-                    <p>+1 5589 55488 55</p>
+                    <p>+92 302-2196615</p>
                   </div>
                 </div><!-- End Info Item -->
   
@@ -39,11 +39,11 @@
                   <i class="bi bi-envelope flex-shrink-0"></i>
                   <div>
                     <h3>Email Us</h3>
-                    <p>info@example.com</p>
+                    <p><a href="mailto:obm.techsol@gmail.com " class=" text-dark text-decoration-none">obm.techsol@gmail.com </a></p>
                   </div>
                 </div><!-- End Info Item -->
   
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226.13140030661697!2d67.08898925861219!3d24.928581115519872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f2e32806e6b%3A0xb122b69a704b1854!2sRizwan%20Clinic!5e0!3m2!1sen!2s!4v1736616382160!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
   

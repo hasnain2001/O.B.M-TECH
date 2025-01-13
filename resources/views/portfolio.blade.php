@@ -17,90 +17,91 @@
     </div>
     <!-- Portfolio Header -->
     <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold text-primary">Our Portfolio</h1>
+        <h1 class="display-6 fw-bold text-dark">Our Portfolio</h1>
         <p class="lead text-muted">Showcasing Our Expertise in Delivering Digital Solutions</p>
     </div>
 
     <!-- Portfolio Grid -->
     <div class="row g-4">
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-                <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 1">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-dark">Affiliate Marketing Campaign</h5>
-                    <p class="card-text text-muted">
-                        A successful campaign connecting brands with affiliates to boost revenue and traffic.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-                <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-dark">SEO Optimization</h5>
-                    <p class="card-text text-muted">
-                        Enhanced online visibility for a local business through targeted SEO strategies.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-                <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 3">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-dark">Creative Graphic Design</h5>
-                    <p class="card-text text-muted">
-                        Crafted unique branding materials and visuals for a startup, leaving a lasting impression.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Item 4 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-                <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 4">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-dark">E-commerce Website Development</h5>
-                    <p class="card-text text-muted">
-                        Designed and developed a responsive e-commerce platform for a retail brand.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-                <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 5">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-dark">Social Media Marketing</h5>
-                    <p class="card-text text-muted">
-                        Managed social media campaigns, increasing engagement by 50% for a client.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-                <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 6">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-dark">Corporate Branding</h5>
-                    <p class="card-text text-muted">
-                        Delivered a comprehensive branding package for a corporate client, elevating their image.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+      <!-- Portfolio Item 1 -->
+      <div class="col-md-4">
+          <div class="card shadow-sm border-0 text-center">
+              <div class="card-body">
+                  <i class="bi bi-megaphone-fill display-3 text-primary"></i>
+                  <h5 class="card-title fw-bold text-dark mt-3">Affiliate Marketing Campaign</h5>
+                  <p class="card-text text-muted">
+                      A successful campaign connecting brands with affiliates to boost revenue and traffic.
+                  </p>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Portfolio Item 2 -->
+      <div class="col-md-4">
+          <div class="card shadow-sm border-0 text-center">
+              <div class="card-body">
+                  <i class="bi bi-search display-3 text-success"></i>
+                  <h5 class="card-title fw-bold text-dark mt-3">SEO Optimization</h5>
+                  <p class="card-text text-muted">
+                      Enhanced online visibility for a local business through targeted SEO strategies.
+                  </p>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Portfolio Item 3 -->
+      <div class="col-md-4">
+          <div class="card shadow-sm border-0 text-center">
+              <div class="card-body">
+                  <i class="bi bi-palette display-3 text-danger"></i>
+                  <h5 class="card-title fw-bold text-dark mt-3">Creative Graphic Design</h5>
+                  <p class="card-text text-muted">
+                      Crafted unique branding materials and visuals for a startup, leaving a lasting impression.
+                  </p>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Portfolio Item 4 -->
+      <div class="col-md-4">
+          <div class="card shadow-sm border-0 text-center">
+              <div class="card-body">
+                  <i class="bi bi-bag-fill display-3 text-warning"></i>
+                  <h5 class="card-title fw-bold text-dark mt-3">E-commerce Website Development</h5>
+                  <p class="card-text text-muted">
+                      Designed and developed a responsive e-commerce platform for a retail brand.
+                  </p>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Portfolio Item 5 -->
+      <div class="col-md-4">
+          <div class="card shadow-sm border-0 text-center">
+              <div class="card-body">
+                  <i class="bi bi-share display-3 text-info"></i>
+                  <h5 class="card-title fw-bold text-dark mt-3">Social Media Marketing</h5>
+                  <p class="card-text text-muted">
+                      Managed social media campaigns, increasing engagement by 50% for a client.
+                  </p>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Portfolio Item 6 -->
+      <div class="col-md-4">
+          <div class="card shadow-sm border-0 text-center">
+              <div class="card-body">
+                  <i class="bi bi-building display-3 text-secondary"></i>
+                  <h5 class="card-title fw-bold text-dark mt-3">Corporate Branding</h5>
+                  <p class="card-text text-muted">
+                      Delivered a comprehensive branding package for a corporate client, elevating their image.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
 

@@ -10,13 +10,13 @@ header("X-Robots-Tag:index, follow");
   <title>@yield('title')</title>
   <meta name="description" content="@yield('description')">
   <meta name="keywords" content="@yield('keywords')">
-  <link rel="canonical" href='{{ url()->current() }}'>
+  <link rel="canonical" href='@yield('canonical')'>
   <meta name="author" content="Uzair">
   <meta name="robots" content="index, follow">
 
   <!-- Favicons -->
-  <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+  <link rel="shortcut icon" href="{{asset('assets/img/favicon.png')}}" type="image/x-icon">
+ 
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -41,6 +41,11 @@ header("X-Robots-Tag:index, follow");
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    body{
+      margin-top: 170px;
+    }
+  </style>
 </head>
 
 <body class="index-page text-capitalize">

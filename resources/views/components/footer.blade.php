@@ -29,10 +29,11 @@
   
           </a>
           <div class="footer-contact pt-3">
-            <p>123 Innovation Way</p>
-            <p>San Francisco, CA 94105</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 123 456 7890</span></p>
-            <p><strong>Email:</strong> <span>hello@creativeagency.com</span></p>
+            <p>Address : B-103, Block#3, Gulshan E Iqbal, </p>
+            <p> Karachi, Pakistan</p>
+            <p class="mt-3"><strong>Phone:</strong> <span> +92 302-2196615</span></p>
+            <p><strong>Email:</strong><span>obm.techsol@gmail.com </span></p>
+
           </div>
         </div>
   
@@ -41,9 +42,9 @@
           <h4>Quick Links</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About Us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Portfolio</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Contact</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('about') }}">About Us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('portfolio') }}">Portfolio</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('contact') }}">Contact</a></li>
           </ul>
         </div>
   
@@ -51,9 +52,9 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Brand Strategy</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">UX/UI Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('affilate-marketing') }}">Affiliate Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('ui-ux') }}">UX/UI Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{{ route('website-designing') }}">Web Development</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Digital Marketing</a></li>
           </ul>
         </div>
@@ -63,9 +64,9 @@
           <h4>Follow Us</h4>
           <p>Join us on social media for the latest updates and industry trends.</p>
           <div class="social-links d-flex">
-<a href="#"  target="blank" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+{{-- <a href="#"  target="blank" aria-label="Twitter"><i class="bi bi-twitter"></i></a> --}}
 <a href="https://www.facebook.com/people/OBM-Tech/100089305237766/" target="blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-<a href="#"  target="blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+{{-- <a href="#"  target="blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a> --}}
 <a href="https://www.linkedin.com/company/o-b-m-tech/"  target="blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
@@ -74,9 +75,9 @@
   
     <!-- Copyright -->
     <div class="container copyright text-center mt-4">
-      <p>© 2024 <strong class="px-1 sitename">CreativeAgency</strong>. All Rights Reserved.</p>
+      <p>© 2024 <strong class="px-1 sitename">o.b.m tech</strong>. All Rights Reserved.</p>
       <div class="credits">
-        Designed by <a href="https://youragency.com">Your Agency</a>
+        Designed by <a href="https://obmtechs.com/" target="blank">o.b.m tech</a>
       </div>
     </div>
   

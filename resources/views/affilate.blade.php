@@ -90,126 +90,118 @@
 </section>
 
 
-<!-- Testimonials Section -->
-<section id="testimonials" class="py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2>What Our Clients Say</h2>
-            <p>Hear from our satisfied clients who have achieved success with our services.</p>
-        </div>
-        <section id="testimonials" class="testimonials section dark-background">
+<section id="testimonials" class="testimonials section dark-background">
 
-            <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-          
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-          
-              <div class="swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                      "delay": 5000
-                    },
-                    "slidesPerView": "auto",
-                    "pagination": {
-                      "el": ".swiper-pagination",
-                      "type": "bullets",
-                      "clickable": true
-                    }
-                  }
-                </script>
-                <div class="swiper-wrapper">
-          
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                      <h3>Saul Goodman</h3>
-                      <h4>CEO, FutureVision Agency</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>The team at FutureVision exceeded our expectations. Their creativity and strategic approach helped us achieve our goals effectively and on time.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-          
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                      <h3>Sara Wilsson</h3>
-                      <h4>Creative Director, BrightIdeas</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Working with FutureVision was a fantastic experience. Their innovative solutions and attention to detail made all the difference.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-          
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                      <h3>Jena Karlis</h3>
-                      <h4>Owner, EliteShop</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>From branding to marketing, the team provided exceptional support. Highly recommend FutureVision to any growing business.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-          
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                      <h3>Matt Brandon</h3>
-                      <h4>Freelance Consultant</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Their expertise in digital marketing transformed my consultancy. They delivered results beyond my expectations.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-          
-                  <div class="swiper-slide">
-                    <div class="testimonial-item">
-                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur, StartUpX</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>FutureVision helped us build a strong digital presence. Their team is professional, skilled, and great to work with.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                    </div>
-                  </div><!-- End testimonial item -->
-          
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-          
+  <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="Testimonials Background">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Testimonial Image 1">
+            <h3>Emily Johnson</h3>
+            <h4>Owner, CreativeFlair</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
-          
-          </section>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>O.B.M. Tech's graphic design services elevated our brand image. Their creativity and professionalism are unmatched!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Testimonial Image 2">
+            <h3>Michael Carter</h3>
+            <h4>Marketing Lead, TechNova</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Their expertise in affiliate marketing helped us increase our revenue significantly. O.B.M. Tech is a game changer!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Testimonial Image 3">
+            <h3>Linda Taylor</h3>
+            <h4>CEO, StartSmart</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Our new website designed by O.B.M. Tech has received amazing feedback from clients. They truly understand user experience.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Testimonial Image 4">
+            <h3>James Peterson</h3>
+            <h4>Entrepreneur, DreamSpace</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Thanks to O.B.M. Tech, our online presence has grown tremendously. Their digital strategies are highly effective.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="Testimonial Image 5">
+            <h3>Sophia Lee</h3>
+            <h4>Freelance Designer</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Collaborating with O.B.M. Tech on web development projects has been a breeze. Highly skilled and reliable team!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
+
+  </div>
+
 </section>
+<!-- /Testimonials Section -->
 
 <!-- Call to Action Section -->
 <section class="cta-section text-center">
