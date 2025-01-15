@@ -1,7 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Header</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body>
+
 
   
-  <header id="header" class="header fixed-top " >
-
+  <header id="header" class="header fixed-top"  >
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
@@ -18,19 +28,18 @@
     </div><!-- End Top Bar -->
 
     <div class="branding d-flex align-items-center" >
-
+    
       <div class="container position-relative d-flex align-items-center justify-content-between">
-        <a href="/" class="logo d-flex align-items-center">
+     
+        <a href="/" class="logo d-flex ">
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <img src="{{asset('assets/img/logo.png')}}" alt=""> 
           {{-- <h1 class="sitename">O.B.M </h1> --}}
         </a>
-
-        <nav id="navmenu" class="navmenu ">
+        <nav id="navmenu" class="navmenu " >
           <ul>
             <li><a href="/" class="{{ request()->is('/') ? 'active' : '' }}">Home</a></li>
-            <li><a href="{{route('about')}}" class="{{ request()->is('about-us') ? 'active' : '' }}" >About</a></li>
-         
+            <li><a href="{{route('about')}}" class="{{ request()->is('about-us') ? 'active' : '' }}" >About</a></li>         
             <li><a href="{{route('portfolio')}}" class="{{ request()->is('portfolio') ? 'active' : '' }}">Portfolio</a></li>
             <li><a href="{{route('team')}}" class="{{ request()->is('team') ? 'active' : '' }}">Team</a></li>
             <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -61,3 +70,10 @@
     </div>
 
   </header>
+
+
+
+
+
+</body>
+</html>

@@ -6,25 +6,26 @@
 
 <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section light-background">
+  <!-- Hero Section -->
+<section id="hero" class="hero section light-background" style="display: flex; align-items: center; justify-content: center;">
 
   <div class="container">
-  <div class="row gy-4">
-  <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-  <h1 style="font-size: 30px;">Welcome to <span>O.B.M TECH</span></h1>
-  <p style="font-size: 12px;" class=" font-weight-bold text-center text-dark">
-    We are a comprehensive e-commerce company dedicated to empowering businesses with a wide range of services under one roof. From cutting-edge digital marketing strategies and affiliate marketing solutions to professional website development, impactful social media marketing, and custom logo design, we help you innovate, market, design, and thrive in the digital landscape. Our mission is to provide tailored solutions that drive growth, enhance brand visibility, and create lasting impressions for businesses of all sizes.
-  </p>
-  <div class="d-flex">
-  <a href="{{ route('contact') }}" class="btn-get-started">Get Started</a>
-  <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-  </div>
-  </div>
-  </div>
+    <div class="row gy-4">
+      <div class="col-lg-12 order-2 order-lg-1 d-flex flex-column justify-content-center text-center" data-aos="zoom-out">
+        <h1 style="font-size: 40px;">Welcome to <span>O.B.M TECH</span></h1>
+        <p style="font-size: 15px;" class="text-dark">
+          We are a comprehensive e-commerce company dedicated to empowering businesses with a wide range of services under one roof. From cutting-edge digital marketing strategies and affiliate marketing solutions to professional website development, impactful social media marketing, and custom logo design, we help you innovate, market, design, and thrive in the digital landscape. Our mission is to provide tailored solutions that drive growth, enhance brand visibility, and create lasting impressions for businesses of all sizes.
+        </p>
+        <div class="d-flex justify-content-center">
+          <a href="{{ route('contact') }}" class="btn-get-started">Get Started</a>
+        </div>
+      </div>
+    </div>
   </div>
 
-    </section><!-- /Hero Section -->
+</section>
+<!-- /Hero Section -->
+
 <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
 
@@ -268,14 +269,14 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><a href="https://redeemrelax.com/" target="_blank" rel="noopener noreferrer"><img src="{{asset('assets/img/clients/logo.png')}}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-5.png')}}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt=""></div>
           </div>
         </div>
 

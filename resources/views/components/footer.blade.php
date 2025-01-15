@@ -29,10 +29,11 @@
   
           </a>
           <div class="footer-contact pt-3">
-            <p>Address : B-103, Block#3, Gulshan E Iqbal, </p>
+            <p><strong>Address:</strong> B-103, Block#3, Gulshan E Iqbal, </p>
             <p> Karachi, Pakistan</p>
-            <p class="mt-3"><strong>Phone:</strong> <span> +92 302-2196615</span></p>
-            <p><strong>Email:</strong><span>obm.techsol@gmail.com </span></p>
+           
+            <p class="mt-3"><strong>Phone :</strong><span> +92 302-2196615</span></p>
+            <p><strong>Email : </strong><span>obm.techsol@gmail.com </span></p>
 
           </div>
         </div>

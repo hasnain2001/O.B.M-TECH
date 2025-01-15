@@ -3,7 +3,68 @@
 @section('description','On the hunt for a dependable digital wizard? Transform your online vibe with Alphaisoft’s web design, development, and SEO magic!')
 @section('keywords','')
 @section('main-content')
+<style>
+  /* Style the Vision and Mission section */
+.section-title {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
 
+.section-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Style for the Testimonial Section */
+.testimonial-box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-author {
+  display: block;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #333;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .testimonial-box {
+    padding: 15px;
+  }
+  .testimonial-author {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.3rem;
+  }
+  .section-content {
+    font-size: 0.9rem;
+  }
+}
+
+</style>
 <!-- Team Section -->
 <section id="team" class="team section light-background">
 
@@ -94,46 +155,48 @@
 
       </div>
 
-    <!-- Vision and Mission Section -->
-    <div class="row mt-5">
-      <div class="col-lg-6" data-aos="fade-up">
-        <h3>Our Vision</h3>
-        <p>We aim to be the leaders in digital transformation, providing innovative solutions that inspire businesses to grow and thrive in the digital age.</p>
-      </div>
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <h3>Our Mission</h3>
-        <p>Our mission is to empower businesses with cutting-edge technology and creative strategies, delivering exceptional results that drive success.</p>
-      </div>
-    </div>
-    <!-- End Vision and Mission Section -->
+      <div class="container">
+        <!-- Vision and Mission Section -->
+        <div class="row mt-5">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="section-title">Our Vision</h3>
+            <p class="section-content">We aim to be the leaders in digital transformation, providing innovative solutions that inspire businesses to grow and thrive in the digital age.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="section-title">Our Mission</h3>
+            <p class="section-content">Our mission is to empower businesses with cutting-edge technology and creative strategies, delivering exceptional results that drive success.</p>
+          </div>
+        </div>
+        <!-- End Vision and Mission Section -->
+      
+        <!-- Team Testimonials Section -->
+        <div class="row mt-5">
+          <div class="col-12 text-center" data-aos="fade-up">
+            <h3 class="section-title">What Our Team Says</h3>
+            <p class="section-content">Hear from our passionate team members.</p>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-box">
+              <p>"Working at O.B.M Tech has been a rewarding experience. The environment fosters creativity and innovation!"</p>
 
-    <!-- Team Testimonials Section -->
-    <div class="row mt-5">
-      <div class="col-12 text-center" data-aos="fade-up">
-        <h3>What Our Team Says</h3>
-        <p>Hear from our passionate team members.</p>
-      </div>
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="testimonial-box">
-          <p>"Working at O.B.M Tech has been a rewarding experience. The environment fosters creativity and innovation!"</p>
-          <span>- Amanda Jepson, Accountant</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-box">
+              <p>"Collaborating with a team of talented individuals has allowed me to grow professionally."</p>
+              {{-- <span class="testimonial-author">- ozair  bin mazher, Founder & Chief Executive Officer</span> --}}
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-box">
+              <p>"Being a part of this team is about more than work—it's about making an impact."</p>
+              
+            </div>
+          </div>
         </div>
+        <!-- End Team Testimonials Section -->
       </div>
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="testimonial-box">
-          <p>"Collaborating with a team of talented individuals has allowed me to grow professionally."</p>
-          <span>- Ozair Ahmed, CEO</span>
-        </div>
-      </div>
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
-        <div class="testimonial-box">
-          <p>"Being a part of this team is about more than work—it's about making an impact."</p>
-          <span>- Sarah Jhonson, Product Manager</span>
-        </div>
-      </div>
-    </div>
-    <!-- End Team Testimonials Section -->
-
+      
   </div>
 
 </section>

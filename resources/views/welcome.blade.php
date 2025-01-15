@@ -43,7 +43,7 @@ header("X-Robots-Tag:index, follow");
   ======================================================== -->
   <style>
     body{
-      margin-top: 170px;
+      margin-top: 150px;
     }
   </style>
 </head>
